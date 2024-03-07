@@ -1,121 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Bottom Reponsive NavigationBar</title>
-</head>
-<body style="background-color: black;" >
+  </head>
+  <body>
+    <!-- header section start here -->
     <header class="header" id="header">
-
-<nav class="nav container">
-    <a href="#" class="nav_logo"> <img src="https://as1.ftcdn.net/v2/jpg/00/88/43/58/1000_F_88435847_HhglbcoGP5qOX3DfudP3hN5z95eTrHqz.jpg" alt="" srcset="" class="logo_img"> </a>
-    <div class="nav_menu" id="nav-menu">
-        <ul class="nav_list">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">
+          <img
+            src="https://as1.ftcdn.net/v2/jpg/00/88/43/58/1000_F_88435847_HhglbcoGP5qOX3DfudP3hN5z95eTrHqz.jpg"
+            alt=""
+            srcset=""
+            class="logo_img"
+          />
+        </a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
             <li class="nav_item">
-                <a href="#home" class="nav_link active-link">
-                    <i class='bx bx-home nav_icon'></i>
-                    <span class="nav_name">Home</span>
-                </a>
+              <a href="#home" class="nav_link active-link">
+                <i class="bx bx-home nav_icon"></i>
+                <span class="nav_name">Home</span>
+              </a>
             </li>
             <li class="nav_item">
-                <a href="#about" class="nav_link">
-                    <i class='bx bx-user nav_icon'></i>
-                    <span class="nav_name">About</span>
-                </a>
+              <a href="#about" class="nav_link">
+                <i class="bx bx-user nav_icon"></i>
+                <span class="nav_name">About</span>
+              </a>
             </li>
             <li class="nav_item">
-                <a href="#skills" class="nav_link">
-                    <i class='bx bx-book-alt nav_icon'></i>
-                    <span class="nav_name">Skills</span>
-                </a>
+              <a href="#skills" class="nav_link">
+                <i class="bx bx-book-alt nav_icon"></i>
+                <span class="nav_name">Skills</span>
+              </a>
             </li>
             <li class="nav_item">
-                <a href="#portfolio" class="nav_link">
-                    <i class='bx bx-briefcase nav_icon' ></i>
-                    <span class="nav_name">Portfolio</span>
-                </a>
+              <a href="#portfolio" class="nav_link">
+                <i class="bx bx-briefcase nav_icon"></i>
+                <span class="nav_name">Portfolio</span>
+              </a>
             </li>
             <li class="nav_item">
-                <a href="#contactme" class="nav_link">
-                    <i class='bx bx-message-square-detail nav_icon'></i>
-                    <span class="nav_name">Contact me</span>
-                </a>
+              <a href="#contactme" class="nav_link">
+                <i class="bx bx-message-square-detail nav_icon"></i>
+                <span class="nav_name">Contact me</span>
+              </a>
             </li>
-        </ul>
-    </div>
-    <img src="img/profile.jpg" alt="" class="nav_img">
-</nav>
-
-
+          </ul>
+        </div>
+        <img src="img/profile.jpg" alt="" class="nav_img" />
+      </nav>
     </header>
 
+    <!-- header section end here -->
+    <!-- main section start here -->
+
     <main>
-        <section class="container section section_height" id="home">
-            <h2 class="section_title">Home</h2>
-        </section>
-        <section class="container section section_height" id="about">
-            <h2 class="section_title">About</h2>
-        </section>
-        <section class="container section section_height" id="skills">
-            <h2 class="section_title">Skills</h2>
-        </section>
-        <section class="container section section_height" id="portfolio">
-            <h2 class="section_title">Portfolio</h2>
-        </section>
-        <section class="container section section_height" id="contactme">
-            <h2 class="section_title">Contact me</h2>
-        </section>
+      <!-- Home section start here -->
+      <section id="home">
+        <div class="home-left" data-aos="fade-right" data-aos-mirror="true">
+          <div>
+            <h1 class="heading">Hi! I am</h1>
+            <p class="typewriter"><span id="element"></span></p>
+          </div>
+          <p class="para">
+            Highly motivated and passionate Frontend Web Developer seeking an
+            opportunity to apply my skills in HTML, CSS, and JavaScript to
+            develop engaging and user-friendly web applications.
+          </p>
+          <div class="CV-main">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1Ogs2Y0j1b6xGyXqCv7sKZUHxf_cuWKNF/view?usp=sharing"
+              class="CV">Download CV <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+        <!-- Profile Card Container -->
+        <div class="home-right" data-aos="fade-left" data-aos-mirror="true">
+          <div class="first-box"></div>
+          <div class="sec-box"></div>
+          <div class="third-box"></div>
+          <div class="home-img">
+            <img src="img/Amit_photo.jpg" alt="" />
+          </div>
+          
+        </div>
+      </section>
+      <!-- Home section end here -->
+      <!-- About section start here -->
+      <section class="container section section_height" id="about">
+        <h2 class="section_title">About</h2>
+      </section>
+      <!-- About section end here -->
+      <!-- Skills section start here -->
+      <section class="container section section_height" id="skills">
+        <h2 class="section_title">Skills</h2>
+      </section>
+      <!-- Skills section end here -->
+      <!-- Projects section start here -->
+      <section class="container section section_height" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+      </section>
+      <!-- Projects section end here -->
+      <!-- Contact section start here -->
+      <section class="container section section_height" id="contactme">
+        <h2 class="section_title">Contact me</h2>
+      </section>
+      <!-- Contact section end here -->
     </main>
-</body>
-<script>
-    const sections = document.querySelectorAll('section[id]');
+    <!-- main section end here -->
+  </body>
+  <!-- script section -->
+  <script>
+    const sections = document.querySelectorAll("section[id]");
 
     function scrollActive() {
-        const scrollY = window.pageYOffset;
+      const scrollY = window.pageYOffset;
 
-        sections.forEach(current => {
-            const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop -50,
-            sectionId = current.getAttribute('id');
-            
-            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link');
-            }
-            else{
-                document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.remove('active-link');
-            }
-        })
+      sections.forEach((current) => {
+        const sectionHeight = current.offsetHeight,
+          sectionTop = current.offsetTop - 50,
+          sectionId = current.getAttribute("id");
+
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+          document
+            .querySelector(".nav_menu a[href*=" + sectionId + "]")
+            .classList.add("active-link");
+        } else {
+          document
+            .querySelector(".nav_menu a[href*=" + sectionId + "]")
+            .classList.remove("active-link");
+        }
+      });
     }
-    window.addEventListener('scroll', scrollActive)
-
+    window.addEventListener("scroll", scrollActive);
 
     // ===============================change background header======================================
 
     function scrollHeader() {
-        const nav = document.getElementById('.header');
+      const nav = document.getElementById(".header");
 
-        if (this.scrollY >= 80) {
-            nav.classList.header('scroll-header');
-        }
-        else{
-            nav.classList.header('scroll-header');
-        }
+      if (this.scrollY >= 80) {
+        nav.classList.header("scroll-header");
+      } else {
+        nav.classList.header("scroll-header");
+      }
     }
-    window.addEventListener('scroll', scrollHeader);
+    window.addEventListener("scroll", scrollHeader);
     function scrollTop() {
-        const scrollTop = document.getElementById('scroll-top');
+      const scrollTop = document.getElementById("scroll-top");
 
-        if (this.scrollY >= 560) {
-            scrollTop.classList.add('show-scroll');
-        }
-        else{
-            scrollTop.classList.remove('show-scroll');
-        }
+      if (this.scrollY >= 560) {
+        scrollTop.classList.add("show-scroll");
+      } else {
+        scrollTop.classList.remove("show-scroll");
+      }
     }
-    window.addEventListener('scroll', scrollTop);
-</script>
+    window.addEventListener("scroll", scrollTop);
+  </script>
+  <!-- end script section -->
 </html>
