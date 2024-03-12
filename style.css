@@ -291,7 +291,7 @@ margin-right: auto;
    height: 25rem;
    transform: rotateX(45deg);
    width: 25rem;
-   background-color: #f90909ec;
+   background: linear-gradient(to right, #ff5722, #aa1002);
    border-radius: 50%;
    animation: firstBox 8s infinite;
 }
@@ -312,13 +312,13 @@ margin-right: auto;
 
 .sec-box {
    border-radius: 50%;
-   top: 1.7rem;
-   left: 1.8rem;
+   top: 1.4rem;
+   left: 2rem;
    position: absolute;
    transform: rotateX(15deg);
    height: 22rem;
    width: 22rem;
-   background-color: #c2db00da;
+   background-color: #5cbf2eda;
    animation: secBox 5s infinite;
 }
 
@@ -338,33 +338,33 @@ margin-right: auto;
 
 .third-box {
    border-radius: 50%;
-   top: 3.0rem;
-   left: 3.2rem;
+   top: 2.9rem;
+   left: 3.6rem;
    position: absolute;
    height: 19rem;
    width: 19rem;
-   transform: rotate(13deg);
+   transform: rotate(60deg);
    background-color: #8400ffc2;
    animation: thirdBox 7s infinite;
 }
 
 @keyframes thirdBox {
    0% {
-       transform: rotateY(13deg)
+       transform: rotateX(20deg)
    }
 
    50% {
-       transform: rotate(25deg);
+       transform: rotate(40deg);
    }
 
    100% {
-       transform: rotateY(13deg);
+       transform: rotateX(13deg);
    }
 }
 #home img {
    position: absolute;
    top: 4.3rem;
-   left: 4.7rem;
+   left: 5.1rem;
    border-radius: 50%;
    height: 16rem;
    width: 16rem;
@@ -387,9 +387,9 @@ margin-right: auto;
 .typewriter {
    font-size: 40px;
    font-weight: 700;
-   background: linear-gradient(to right, #590e96, #a50092);
+   background: linear-gradient(to right, #ff5722, #aa1002);
    -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text;
+   background-clip: text;
 }
 
 .CV-main {
@@ -426,3 +426,38 @@ margin-right: auto;
    right: 10px;
 }
 
+@media  screen and (max-width: 768px){
+   #home{
+      flex-direction: column-reverse;
+      padding: 2.5rem 0.3rem;
+      margin-top: 20px;
+      padding-bottom: 20px;
+   }
+
+   .first-box {
+      
+      height: 0rem;
+      display: none;
+   }
+   .home-left{
+      padding-top: 322px;
+      margin: 25px;
+   }
+
+   .sec-box {
+      height: 19rem;
+      width: 19rem;
+      top: 1.9rem;
+   left: 2.6rem;
+   }
+   .third-box {
+      height: 17rem;
+      width: 17rem;
+   }
+
+   #home img {
+      
+      height: 14rem;
+      width: 14rem;
+   }
+}
